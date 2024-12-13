@@ -65,7 +65,6 @@ header {
 
 .body-wrap-01 img {
 	display: block;
-	/* width: 85rem; */
 	width: 100%;
 	height: 40rem;
 	filter: saturate(85%);
@@ -158,6 +157,8 @@ header {
 .body-wrap-02 .body-box-01 .box-01-img {
 	width: 50%;
 	height: 20rem;
+	border-radius: 2rem;
+	overflow: hidden;
 }
 
 .body-wrap-02 .body-box-01 .box-01-img .swiper-slide {
@@ -210,6 +211,8 @@ header {
 .body-wrap-02 .body-box-02 .box-02-img {
 	width: 50%;
 	height: 20rem;
+	border-radius: 2rem;
+	overflow: hidden;
 }
 
 .body-wrap-02 .body-box-02 .box-02-img .swiper-slide {
@@ -224,3 +227,108 @@ header {
 	object-fit: cover;
 	object-position: center;
 }
+/* body End */
+
+/* footer Start */
+footer {
+	padding-top: 5rem;
+}
+
+.footer_wrap {
+	display: flex;
+	flex-direction: column;
+	border-top: 2px solid rgb(196,141,63);
+	background-color: #f8f4c7;
+	padding: 1rem 3rem 1rem 3rem;
+}
+
+.footer_wrap > .footer-wrap-01 {
+	display: grid;
+	grid-template-columns: 1.5fr 0.5fr;
+}
+
+.footer-wrap-01 > .link-items {
+	display: flex;
+	align-items: center;
+}
+
+.footer-wrap-01 > .link-items > ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-wrap-01 > .link-items > ul > li {
+	padding-right: 3rem;
+}
+
+.footer-wrap-01 > .link-items > ul > li > a {
+	color: rgb(196,141,63);
+	font-size: 1.3rem;
+	transition: color .5s;
+}
+
+.footer-wrap-01 > .link-items > ul > li > a:hover {
+	color: #FFCA28;
+}
+
+.footer-wrap-01 > .link-items > ul > li:last-child {
+	padding-right: 0rem;
+}
+
+.footer-wrap-01 > .footer-logo-box {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.footer-wrap-01 > .footer-logo-box > a > img {
+	width: 10rem;
+	height: 7rem;
+}
+
+.footer_wrap > .footer-wrap-02 {
+	display: grid;
+	grid-template-columns: 1.5fr 0.5fr;
+	padding-top: 6rem;
+	padding-bottom: 1rem;
+}
+
+.footer-wrap-02 > .copyright {
+	display: flex;
+	flex-direction: column;
+	padding-right: 6rem;
+}
+
+.footer-wrap-02 > .copyright > span {
+	color: rgb(196,141,63);
+	font-size: 1rem;
+}
+
+.footer-wrap-02 > .copyright > span:last-child {
+	padding-top: 0.7rem;
+}
+
+.footer-wrap-02 > .sns {
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+
+.footer-wrap-02 > .sns > ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-wrap-02 > .sns > ul > li {
+	padding-right: 2rem;
+}
+
+.footer-wrap-02 > .sns > ul > li:last-child {
+	padding-right: 0rem;
+}
+
+.footer-wrap-02 > .sns > ul > * > a > i {
+	font-size: 1.7rem;
+}
+
+/* footer End */
