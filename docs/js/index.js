@@ -10,4 +10,16 @@ function box01Img_Swiper() {
   });
 };
 
-document.addEventListener('DOMContentLoaded', box01Img_Swiper);
+box01Img_Swiper();
+
+function box02Img_Swiper() {
+	const swiper = new Swiper('.box-02-img.swiper', {     
+		loop: true,
+		speed: 1000,		
+		autoplay: {
+			delay: 2000,
+		}
+  });
+};
+
+box02Img_Swiper();

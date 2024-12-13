@@ -66,7 +66,8 @@ header {
 
 .body-wrap-01 img {
 	display: block;
-	width: 85rem;
+	/* width: 85rem; */
+	width: 100%;
 	height: 40rem;
 	filter: saturate(85%);
 	border: 1.5px solid rgb(196,141,63);
@@ -166,6 +167,58 @@ header {
 }
 
 .body-wrap-02 .body-box-01 .box-01-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.body-wrap-02 .body-box-02 {
+	margin-top: 2rem;
+}
+
+.body-wrap-02 .body-box-02 > .box-02-wrap {
+	border: 2px solid rgb(196,141,63);
+	border-radius: 2rem;
+	background-color: #f8f4c7;
+	display: flex;
+	flex-direction: row;
+	padding: 1.5rem;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.body-wrap-02 .body-box-02 > .box-02-wrap > .box-02-text {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding-left: 2rem;
+}
+
+.body-wrap-02 .body-box-02 > .box-02-wrap > .box-02-text span {
+	color: rgb(196,141,63);
+	font-size: 1.2rem;
+}
+
+.body-wrap-02 .body-box-02 .box-02-text > .box-02-tit > span {
+	font-size: 2rem;
+}
+
+.body-wrap-02 .body-box-02 .box-02-text > .box-02-content {
+	padding-top: 1rem;
+}
+
+.body-wrap-02 .body-box-02 .box-02-img {
+	width: 50%;
+	height: 20rem;
+}
+
+.body-wrap-02 .body-box-02 .box-02-img .swiper-slide {
+	border-radius: 2rem;
+	overflow: hidden;
+}
+
+.body-wrap-02 .body-box-02 .box-02-img img {
 	display: block;
 	width: 100%;
 	height: 100%;
