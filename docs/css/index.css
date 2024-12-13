@@ -111,3 +111,64 @@ header {
 .body-wrap-01 > .download-btn > a:active {
 	transform: scale(0.95); 
 }
+
+.body-wrap-02 > .body-tit {
+	padding: 4rem 0rem 2rem 0rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.body-wrap-02 > .body-tit > span {
+	color: rgb(196,141,63);
+	font-size: 2rem;
+	letter-spacing: 1.5rem;
+}
+
+.body-wrap-02 .body-box-01 > .box-01-wrap {
+	border: 2px solid rgb(196,141,63);
+	border-radius: 2rem;
+	background-color: #f8f4c7;
+	display: flex;
+	flex-direction: row;
+	padding: 1.5rem;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.body-wrap-02 .body-box-01 > .box-01-wrap > .box-01-text {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding-right: 2rem;
+}
+
+.body-wrap-02 .body-box-01 > .box-01-wrap > .box-01-text span {
+	color: rgb(196,141,63);
+	font-size: 1.2rem;
+}
+
+.body-wrap-02 .body-box-01 .box-01-text > .box-01-tit > span {
+	font-size: 2rem;
+}
+
+.body-wrap-02 .body-box-01 .box-01-text > .box-01-content {
+	padding-top: 1rem;
+}
+
+.body-wrap-02 .body-box-01 .box-01-img {
+	width: 50%;
+	height: 20rem;
+}
+
+.body-wrap-02 .body-box-01 .box-01-img .swiper-slide {
+	border-radius: 2rem;
+	overflow: hidden;
+}
+
+.body-wrap-02 .body-box-01 .box-01-img img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
