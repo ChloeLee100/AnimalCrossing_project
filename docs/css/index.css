@@ -1,6 +1,9 @@
 html > body {
 	font-family: "Jua", sans-serif;
 	background-color: #F7E7C1;
+}
+
+.body_wrapper {
 	max-width: 2000px;
 	margin: 0 auto;
 }
