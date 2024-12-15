@@ -1,7 +1,8 @@
 html > body {
 	font-family: "Jua", sans-serif;
 	background-color: #F7E7C1;
-	max-width: 1500px;
+	max-width: 2000px;
+	margin: 0 auto;
 }
 
 /* header Start */
@@ -234,6 +235,7 @@ header {
 /* footer Start */
 footer {
 	padding-top: 5rem;
+	width: 100%;
 }
 
 .footer_wrap {
