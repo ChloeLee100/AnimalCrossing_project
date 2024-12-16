@@ -1,0 +1,232 @@
+html > body {
+	font-family: "Jua", sans-serif;
+	background-color: #F7E7C1;
+}
+
+.body_wrapper {
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+/* header Start */
+header {
+	padding: 1rem 2rem 1rem 2rem;
+}
+
+.header_wrap {
+	border: 2px solid rgb(196,141,63);
+	border-radius: 2.5rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	background-color: #f8f4c7;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.header_wrap > * {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem 0.5rem 0.5em 0.5rem;
+}
+
+.header_wrap > *:first-child {
+	justify-content: start;
+}
+
+.logo_box > a {
+	margin-left: 2rem;
+}
+
+.logo_box > a > img {
+	width: 7rem;
+	height: 4.5rem;
+}
+
+.header_wrap > *:not(:first-child) > a > span {
+	font-size: 1.8rem;
+	color: rgb(196,141,63);
+	transition: color .4s;
+}
+
+.header_wrap > *:not(:first-child) > a:hover > span {
+	color: #FFCA28;
+}
+/* header End */
+
+/* footer Start */
+footer {
+	padding-top: 5rem;
+	width: 100%;
+}
+
+.footer_wrap {
+	display: flex;
+	flex-direction: column;
+	border-top: 2px solid rgb(196,141,63);
+	background-color: #f8f4c7;
+	padding: 1rem 3rem 1rem 3rem;
+}
+
+.footer_wrap > .footer-wrap-01 {
+	display: grid;
+	grid-template-columns: 1.5fr 0.5fr;
+}
+
+.footer-wrap-01 > .link-items {
+	display: flex;
+	align-items: center;
+}
+
+.footer-wrap-01 > .link-items > ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-wrap-01 > .link-items > ul > li {
+	padding-right: 2rem;
+}
+
+.footer-wrap-01 > .link-items > ul > li > a {
+	color: rgb(196,141,63);
+	font-size: 1.3rem;
+	transition: color .5s;
+}
+
+.footer-wrap-01 > .link-items > ul > li > a:hover {
+	color: #FFCA28;
+}
+
+.footer-wrap-01 > .link-items > ul > li:last-child {
+	padding-right: 0rem;
+}
+
+.footer-wrap-01 > .footer-logo-box {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+.footer-wrap-01 > .footer-logo-box > a > img {
+	width: 11rem;
+	height: 7rem;
+}
+
+.footer_wrap > .footer-wrap-02 {
+	display: grid;
+	grid-template-columns: 1.5fr 0.5fr;
+	padding-top: 6rem;
+	padding-bottom: 1rem;
+}
+
+.footer-wrap-02 > .copyright {
+	display: flex;
+	flex-direction: column;
+	padding-right: 6rem;
+}
+
+.footer-wrap-02 > .copyright > span {
+	color: rgb(196,141,63);
+	font-size: 1rem;
+}
+
+.footer-wrap-02 > .copyright > span:last-child {
+	padding-top: 0.7rem;
+}
+
+.footer-wrap-02 > .sns {
+	display: flex;
+	justify-content: end;
+	align-items: end;
+}
+
+.footer-wrap-02 > .sns > ul {
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-wrap-02 > .sns > ul > li {
+	padding-right: 2rem;
+}
+
+.footer-wrap-02 > .sns > ul > li:last-child {
+	padding-right: 0rem;
+}
+
+.footer-wrap-02 > .sns > ul > * > a > i {
+	font-size: 1.7rem;
+}
+/* footer End */
+
+@media (1035px > width > 810px) {
+	.header_wrap > *:not(:first-child) > a > span {
+		font-size: 1.5rem;
+	}
+
+	.footer-wrap-01 > .link-items > ul > li {
+		padding-right: 1.2rem;
+	}
+
+	.footer-wrap-01 > .link-items > ul > li > a {
+		font-size: 1rem;
+	}
+
+	.footer-wrap-01 > .footer-logo-box > a > img {
+		width: 8rem;
+		height: 6rem;
+	}
+}
+
+@media (810px >= width) {
+	.header_wrap > *:not(:first-child) > a > span {
+		font-size: 1.4rem;
+	}
+
+	.footer-wrap-01 > .link-items > ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	.footer-wrap-01 > .link-items > ul > li {
+		padding-right: 2rem;
+		padding-bottom: 1rem;
+	}
+
+	.footer-wrap-01 > .link-items > ul > li > a {
+		font-size: 1rem;
+	}
+}
+
+@media (690px >= width) {
+	.logo_box > a > img {
+		width: 5rem;
+		height: 3.5rem;
+	}
+
+	.header_wrap > *:not(:first-child) > a > span {
+		font-size: 1.3rem;
+	}
+
+	.footer_wrap > .footer-wrap-02 {
+		padding-top: 3rem;
+	}
+
+	.footer-wrap-02 > .copyright {
+		padding-right: 3rem;
+	}
+}
+
+@media (617px >= width) {
+	.footer-wrap-01 > .footer-logo-box > a > img {
+		width: 6rem;
+		height: 4rem;
+	}
+
+	.footer-wrap-02 > .copyright > span:last-child {
+		display: none;
+	}
+
+	.footer-wrap-02 > .sns > ul > * > a > i {
+		font-size: 1.3rem;
+	}
+}
