@@ -2,6 +2,21 @@
 	padding: 0rem 2rem 1rem 2rem;
 }
 
+.character01 {
+	position: absolute;
+	top: 68%;
+	left: 80%;
+	z-index: 10;
+}
+
+.character02 {
+	position: absolute;
+	top: 179%;
+	left: 1%;
+	z-index: 10;
+	height: 30rem;
+}
+
 .body-wrap-01 {
 	position: relative;
 }
