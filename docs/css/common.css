@@ -1,6 +1,6 @@
 html > body {
 	font-family: "Jua", sans-serif;
-	background-color: #F7E7C1;
+	background-color: #e84234;
 }
 
 .body_wrapper {
@@ -14,11 +14,11 @@ header {
 }
 
 .header_wrap {
-	border: 2px solid rgb(196,141,63);
+	border: 2px solid rgb(131, 75, 22);
 	border-radius: 2.5rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	background-color: #f8f4c7;
+	background-color: #fbde86;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -48,12 +48,12 @@ header {
 
 .header_wrap > *:not(:first-child) > a > span {
 	font-size: 1.8rem;
-	color: rgb(196,141,63);
+	color: rgb(131, 75, 22);
 	transition: color .4s;
 }
 
 .header_wrap > *:not(:first-child) > a:hover > span {
-	color: #FFCA28;
+	color: #fcc41b;
 }
 
 .mo-header_wrap {
@@ -135,7 +135,7 @@ footer {
 	display: flex;
 	flex-direction: column;
 	border-top: 2px solid rgb(196,141,63);
-	background-color: #f8f4c7;
+	background-color: #fbde86;
 	padding: 1rem 3rem 1rem 3rem;
 }
 
@@ -159,7 +159,7 @@ footer {
 }
 
 .footer-wrap-01 > .link-items > ul > li > a {
-	color: rgb(196,141,63);
+	color: rgb(131, 75, 22);
 	font-size: 1.3rem;
 	transition: color .5s;
 }
@@ -201,7 +201,7 @@ footer {
 }
 
 .footer-wrap-02 > .copyright > span {
-	color: rgb(196,141,63);
+	color: rgb(131, 75, 22);
 	font-size: 1rem;
 }
 
@@ -309,12 +309,12 @@ footer {
 	header {
     padding: 1rem 1rem 1rem 1rem;
     position: relative;
+    background-color: #fbde86;
   }
   
   .header_wrap {
     border: 0px;
     display: flex;
-    background-color: #F7E7C1;
     box-shadow: none;
     flex-direction: row;
     justify-content: space-between;
