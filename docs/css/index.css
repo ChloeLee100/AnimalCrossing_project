@@ -176,6 +176,10 @@
 		font-size: 2rem;
 		letter-spacing: 0.5rem;
 	}
+
+	@media (406px >= width) {
+		font-size: 1.7rem;
+	}
 }
 
 .body-wrap-02 .body-box-01 > .box-01-wrap {
@@ -260,6 +264,10 @@
 
 	@media (442px >= width) {
 		font-size: 1.1rem;
+	}
+
+	@media (406px >= width) {
+		font-size: 1rem;
 	}
 }
 
@@ -382,6 +390,10 @@
 
 	@media (442px >= width) {
 		font-size: 1.1rem;
+	}
+
+	@media (406px >= width) {
+		font-size: 1rem;
 	}
 }
 
@@ -562,7 +574,6 @@
 @media (540px >= width) {
 	.body-wrap {
 		padding: 0;
-		padding-top: 0.5rem;
 	}
 
 	.body-wrap-01 .main-img-box img {
@@ -586,5 +597,15 @@
 
 	.body-wrap-02 {
 		padding: 0rem 2rem 0rem 2rem;
+	}
+}
+
+@media (406px >= width) {
+	.box-01-wrap > .box-01-left > .box-01-btn > a {
+		width: 90%;
+	}
+
+	.box-02-wrap > .box-02-right > .box-02-btn > a {
+		width: 90%;
 	}
 }

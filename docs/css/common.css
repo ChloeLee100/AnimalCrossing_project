@@ -57,26 +57,25 @@ header {
 }
 
 .mo-header_wrap {
-  visibility: hidden;
   position: absolute;
-  left: 0;
-  width: 100%;
-  background-color: #F7E7C1;
-  z-index: 10;
-  margin-top: 1rem;
-  border-top: 3px solid rgb(196,141,63);
-  border-bottom: 3px solid rgb(196,141,63);
-  overflow: hidden;
-  height: 0;
-  transition: height 0.5s ease-in-out;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	background-color: #f7e7c1;
+	z-index: 10;
+	overflow: hidden;
+	transition: all 0.5s ease-in-out;
+	min-height: 0;
+	max-height: 0;
 
   @media (540px <= width) {
-    display: none;
+    visibility: hidden;
   }
 }
 
 .mo-header_wrap.active {
-  height: 285%;
+  min-height: 290px;
+  max-height: 350px;
   visibility: visible;
 }
 
@@ -85,6 +84,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top: 3px solid rgb(196,141,63);
+  border-bottom: 3px solid rgb(196,141,63);
 }
 
 .mo-header_wrap > .mo-menu-items > ul {
