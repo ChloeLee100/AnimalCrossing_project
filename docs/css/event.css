@@ -53,6 +53,10 @@ hr {
   grid-row: 1fr 1fr;
   gap: 2rem;
   margin-top: 2rem;
+
+  @media(685px > width) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .event-cont {
@@ -92,47 +96,57 @@ hr {
   justify-content: center;
 }
 
-.content-01-content > span:first-child {
+.content-content > span:first-child {
   padding-bottom: 1rem;
   font-size: 2.2rem;
+
+  @media(790px > width) {
+    font-size: 2rem;
+  }
+
+  @media(745px > width) {
+    font-size: 1.5rem;
+  }
+}
+
+.content-content > span:last-child {
+  font-size: 1.2rem;
+  text-align: center;
+
+  @media(790px > width) {
+    font-size: 1rem;
+  }
+}
+
+.content-01-content > span:first-child {
   color: #4bb14e;
 }
 
 .content-01-content > span:last-child {
-  font-size: 1.2rem;
   color: rgb(131, 75, 22);
 }
 
 .content-02-content > span:first-child {
-  padding-bottom: 1rem;
-  font-size: 2.2rem;
   color: #FFCA28;
 }
 
 .content-02-content > span:last-child {
-  font-size: 1.2rem;
   color: rgb(131, 75, 22);
 }
 
 .content-03-content > span:first-child {
-  padding-bottom: 1rem;
-  font-size: 2.2rem;
   color: #FFCA28;
 }
 
 .content-03-content > span:last-child {
-  font-size: 1.2rem;
   color: #ff9391;
 }
 
 .content-04-content > span:first-child {
-  padding-bottom: 1rem;
-  font-size: 2.2rem;
   color: #3f83a1;
 }
 
 .content-04-content > span:last-child {
-  font-size: 1.2rem;
   color: #FFCA28;
 }
 
@@ -213,4 +227,18 @@ hr {
 
 .paging-02 > ul > li:last-child {
   margin-right: 0;
+}
+
+@media (541px > width) {
+  .body-wrap {
+    padding: 0;
+  }
+
+  .body-wrap-01 .main-img {
+    border-radius: 0;
+  }
+  
+  .body-wrap-01 img {
+    border-radius: 0;
+  }
 }
