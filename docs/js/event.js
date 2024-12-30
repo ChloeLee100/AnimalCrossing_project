@@ -34,6 +34,7 @@ showPaging();
 function showTab() {
   const tabs = document.querySelectorAll(".tab");
   const buttons = document.querySelectorAll(".paging ul li");
+  const contents = document.querySelector(".body-wrap-02");
 
   tabs.forEach((tab, index) => {
     if (index === 0) {
@@ -52,6 +53,16 @@ function showTab() {
       if (tabs[index]) {
         tabs[index].style.display = "grid";
       }
+
+      buttons.forEach((btn) => {
+        btn.style.backgroundColor = "";
+        btn.style.borderRadius = "";
+      });
+
+      button.style.backgroundColor = "#FFCA28";
+      button.style.borderRadius = "2rem";
+
+      contents.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 };
