@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Crossing</title>
+  <link rel="stylesheet" href="css/event.css" />
+  <link rel="stylesheet" href="css/common.css">
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Oswald&display=swap" rel="stylesheet"/>
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Tailwindcss -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- lodash -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>  
+
+  <!-- Jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script defer src="js/event.js"></script>
+  <script defer src="js/common.js"></script>
+</head>
+<body>
+  <div class="body_wrapper">
+    <header>
+      <div class="header_wrap">
+        <div class="logo_box">
+          <a href="index.html">
+            <img src="Images/logo.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="intro_box">
+          <a href="intro.html">
+            <span>Game intro</span>
+          </a>
+        </div>
+        <div class="event_box">
+          <a href="event.html">
+            <span>Event</span>
+          </a>
+        </div>
+        <div class="login_box">
+          <a href="#">
+            <span>Login</span>
+          </a>
+        </div>
+        <div class="menu_btn_box">
+          <div class="menu_btn cursor-pointer">
+            <i class="fa-solid fa-bars" style="color: rgb(131, 75, 22)"></i>
+          </div>
+        </div>
+      </div>
+      <div class="mo-header_wrap">
+        <div class="mo-menu-items">
+          <ul>
+            <a href="intro.html">
+              <span>Game intro</span>
+            </a>
+            <a href="event.html">
+              <span>Event</span>
+            </a>
+            <a href="#">
+              <span>Login</span>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="body-wrap">
+      <section class="body-wrap-01">
+        <div class="main-img swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="Images/img01.jpeg" alt="Animal Crossing" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/img02.webp" alt="Animal Crossing" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/img04.avif" alt="Animal Crossing" />
+            </div>
+            <div class="swiper-slide">
+              <img src="Images/img05.webp" alt="Animal Crossing" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="body-wrap-02">
+        <div class="event-tit">
+          <nav>
+            <span>Event</span>
+          </nav>
+          <hr />
+        </div>
+        <div class="event-content">
+          <a href="#" class="event-content-01 bg-[#FFCA28]">
+            <div class="content-01-wrap">
+              <div class="content-01-img">
+                <img src="Images/event01.avif" alt="Animal Crossing">
+              </div>
+              <nav class="content-01-content">
+                <span>New Year Party</span>
+                <span>Celebrate 2025 New Year! ~ Happy New Year ~</span>
+              </nav>
+            </div>
+          </a>
+          <a href="#" class="event-content-02 bg-[#4bb14e]">
+            <div class="content-02-wrap">
+              <div class="content-02-img">
+                <img src="Images/event02.jpeg" alt="Animal Crossing">
+              </div>
+              <nav class="content-02-content">
+                <span>Christmas Party</span>
+                <span>Celebrate 2024 Christmas! ~ Merry Christmas ~</span>
+              </nav>
+            </div>
+          </a>
+          <a href="#" class="event-content-03 bg-[#3f83a1]">
+            <div class="content-03-wrap">
+              <div class="content-03-img">
+                <img src="Images/event03.avif" alt="Animal Crossing">
+              </div>
+              <nav class="content-03-content">
+                <span>Fishing Competition</span>
+                <span>Join 2024 Fishing Competition! ~ Win the prize ~</span>
+              </nav>
+            </div>
+          </a>
+          <a href="#" class="event-content-04 bg-[#ff9391]">
+            <div class="content-04-wrap">
+              <div class="content-04-img">
+                <img src="Images/event04.jpeg" alt="Animal Crossing">
+              </div>
+              <nav class="content-04-content">
+                <span>Happy Halloween</span>
+                <span>Collect Halloween Items! Get as many as you want!</span>
+              </nav>
+            </div>
+          </a>
+        </div>
+        <div class="event-btn">
+
+        </div>
+      </section>
+    </div>
+  </div>
+  <!-- <footer>
+    <div class="footer_wrap">
+      <div class="footer-wrap-01">
+        <div class="link-items">
+          <ul>
+            <li class="link-item">
+              <a href="#">About our site</a>
+            </li>
+            <li class="link-item">
+              <a href="#">Accessibility</a>
+            </li>
+            <li class="link-item">
+              <a href="#">Terms & conditions</a>
+            </li>
+            <li class="link-item">
+              <a href="#">Privacy statement</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-logo-box">
+          <a href="#">
+            <img src="Images/logo.png" alt="logo" />
+          </a>
+        </div>
+      </div>
+      <div class="footer-wrap-02">
+        <div class="copyright">
+          <span>Copyright © Animal Crossing</span>
+          <span>2024 Nintendo, Inc. Animal Crossing and all related logos,
+            characters, names and distinctive likenesses thereof are exclusive
+            property of Animal Crossing, Inc. All Rights Reserved.</span>
+        </div>
+        <div class="sns">
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-youtube" style="color: rgb(131, 75, 22)"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram" style="color: rgb(131, 75, 22)"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook" style="color: rgb(131, 75, 22)"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-discord" style="color: rgb(131, 75, 22)"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter" style="color: rgb(131, 75, 22)"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+</body>
+</html>
