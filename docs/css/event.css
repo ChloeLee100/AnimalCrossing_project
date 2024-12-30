@@ -246,3 +246,32 @@ hr {
   font-size: 1.2rem;
   color: #FFCA28;
 }
+
+.event-btn {
+  height: 5rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.event-btn-wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-prev > i {
+  font-size: 2rem;
+  color: white;
+}
+
+.swiper-next > i {
+  font-size: 2rem;
+  color: white;
+}
+
+.paging {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
